@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="jnBUaHkhBmJTTTDCK4HDqeyc2QbzByD2A66B5lHaupA" />
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="png" href="images/icon.png">
+</head>
+
+<body>
+    <div class="stopwatch">
+        <h1 id="displayTime">00:00:00</h1>
+        <div class="buttons">
+            <img src="images/add-lap.png" style="width: 60px;" class="lap-img" alt="lap" onclick="watchLap()">
+            <img src="images/start.png" alt="start" id="startBtn" onclick="watchStart()">
+            <img src="images/reset.png" alt="reset" onclick="watchReset()">
+        </div>
+        <div class="laps" id="lapsContainer">
+            <p id="lapCount">Laps:</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

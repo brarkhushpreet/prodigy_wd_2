@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&display=swap');
+
+body {
+    background: #edeaff;
+    font-family: 'Courier Prime', monospace;
+}
+*{
+    margin: 0;
+    
+    padding: 0;
+}
+
+.stopwatch {
+   
+    width: 100%;
+    height: 200%;
+    background-size:cover;
+    background-repeat: repeat;
+    background-position: center;
+    text-align: center;
+    padding: 40px 0;
+    color: black;
+   
+   
+    
+    
+}
+
+.stopwatch h1 {
+    margin-top: 60px;
+    font-size: 64px;
+    font-weight: 300;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.buttons img {
+    width: 50px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.buttons img:nth-child(2) {
+    width: 80px;
+}
+
+.lap-img {
+    width: 60px;
+    
+}
+
+.laps::-webkit-scrollbar {
+    width: .5rem;
+}
+
+.laps::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.laps::-webkit-scrollbar-thumb {
+    border-radius: 1.5rem;
+    background: #b8c7cc4f;
+}
+
+.laps {
+    font-family: 'Ruda', sans-serif;
+    margin-top: 20px;
+    text-align: center;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.laps p {
+    margin: 5px 0;
+    font-size: 18px;
+}
